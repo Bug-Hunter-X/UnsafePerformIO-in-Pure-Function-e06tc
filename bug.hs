@@ -1,0 +1,1 @@
+This Haskell code attempts to perform an unsafe operation by using `unsafePerformIO` to access a mutable variable from within a pure function.  This can lead to unpredictable behavior and break referential transparency.
