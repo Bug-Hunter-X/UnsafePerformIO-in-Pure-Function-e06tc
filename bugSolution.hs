@@ -1,0 +1,1 @@
+The solution avoids `unsafePerformIO`. Instead, it uses the `IORef` monad to manage state.  This ensures that state changes are managed within the `IO` monad, preserving purity in other parts of the code.  This approach ensures predictable and repeatable results.
